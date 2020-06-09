@@ -52,4 +52,39 @@
   width: 100%;
   text-align: center;
 }
+/*form in the gallery*/
+.form-holder {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15px;
+  width: 80%;
+  margin: 0 10%;
+  border-radius:30px 30px 30px 30px;
+}
+.curved{
 
+padding: 15px;
+width: 25%;
+background-color: white;
+}
+.box{
+padding: 15px;
+width: 25%;
+margin: 0 1px;
+background-color: white;
+}
+.left {
+  border-radius:30px 0px 0px 30px;
+  border-color: white;
+}
+.right{
+  border-radius:0px 30px 30px 0px;
+  background-color: #F4821E;
+}
+.dropdown{
+  border-color: white; 
+}
+form p{
+  color: black;
+}
