@@ -72,7 +72,7 @@
 }
 
 
-/*form in the gallery begins*/
+/*form in the GALLERY begins*/
 .form-holder {
   display: flex;
   flex-direction: row;
@@ -107,7 +107,7 @@ background-color: white;
 form p{
   color: black;
 }
-/*form in d gallery ends*/
+/*FORM IN THE GALLERY*/
 
 /*Css for the form*/
 .email {
@@ -171,7 +171,7 @@ form p{
   border-radius: 4px;
   margin-top: 20px;
 }
-/*  FOR ENDS HERE*/
+/*  FORM ENDS HERE*/
 
 
 /* ROOMS CARD SECTION*/
