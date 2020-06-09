@@ -71,6 +71,7 @@
   text-align: center;
 }
 
+
 /*form in the gallery begins*/
 .form-holder {
   display: flex;
@@ -107,6 +108,72 @@ form p{
   color: black;
 }
 /*form in d gallery ends*/
+
+/*Css for the form*/
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  height: auto !important;
+}
+.the-form {
+  width: 460px;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+}
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  height: auto !important;
+}
+.first-name {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+  color: black;
+  margin-right: 20px;
+}
+.last-name {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+  background:  rgb(243, 243, 243);
+  border-radius: 4px;
+  border: 1px solid  rgb(243, 243, 243);
+  color: black;
+  padding-right: 20px;
+}
+.subject {
+  width: 460px;
+  padding: 1em 2em;
+  background: rgb(243, 243, 243);
+  border: 1px solid rgb(243, 243, 243);
+  height: 200px;
+}
+.submit {
+  display: flex;
+  padding: 1em 2em;
+  background-color:rgba(255, 166, 0, 0.897);
+  border: 1px solid rgba(255, 166, 0, 0.897);
+  color: white;
+  flex-wrap: wrap;
+  margin-left: 800px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+/*  FOR ENDS HERE*/
+
+
 /* ROOMS CARD SECTION*/
 .rooms-card-holder {
   width: 95%;
@@ -197,4 +264,3 @@ form p{
 }
 
 /* Room Card End */
-
