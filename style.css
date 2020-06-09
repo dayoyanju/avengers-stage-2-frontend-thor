@@ -62,7 +62,7 @@
   height: auto !important;
 }
 .the-form {
-  width: 410px;
+  width: 460px;
   padding: 1em 2em;
   background:  rgb(243, 243, 243);
   border-radius: 4px;
@@ -97,7 +97,7 @@
   padding-right: 20px;
 }
 .subject {
-  width: 410px;
+  width: 460px;
   padding: 1em 2em;
   background: rgb(243, 243, 243);
   border: 1px solid rgb(243, 243, 243);
@@ -110,7 +110,7 @@
   border: 1px solid rgba(255, 166, 0, 0.897);
   color: white;
   flex-wrap: wrap;
-  margin-left: 820px;
+  margin-left: 800px;
   border-radius: 4px;
   margin-top: 20px;
 }
