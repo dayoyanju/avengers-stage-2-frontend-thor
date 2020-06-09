@@ -1,0 +1,55 @@
+* {
+  box-sizing:border-box;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+/* the image gallery */
+.image-gallery {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* to hide the images by default */
+.slide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Add trasparent background on hover */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption*/
+.caption {
+  color: #f2f2f2;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
