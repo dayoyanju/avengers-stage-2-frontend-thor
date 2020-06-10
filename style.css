@@ -238,7 +238,7 @@ form p{
 .card-price {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .card-price h2 {
